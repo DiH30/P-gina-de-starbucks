@@ -1,0 +1,19 @@
+.login-container{background-color: #1e3932;
+padding: 2%;
+margin-top:30px;
+display: flex;
+flex-direction:row;
+
+img {
+    height: auto;
+    max-width: 100%;
+    width: 800px;
+    height: 350px;
+}
+}
+
+.login-container--Text{text-align: center;
+color: white;}
+
+.h1{font-weight: 700;
+font-style: bold;}
