@@ -16,8 +16,10 @@ button:hover{
     background-color:rgba(255, 255, 255, 0.851);/*Color del botón cuando el ratón pasa por encima*/
 color: gray;
 }
+
 a{
    color: black;
+   font-weight: 700;
    padding: 10px 20px;
    cursor: pointer;
 }
@@ -30,9 +32,9 @@ body{
     justify-content: center;
     }
 
-.login-container{background-color: #1e3932;
+.container{background-color: #1e3932;
 width: 100%;
-margin: top 30px;
+margin-top: 30px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -45,13 +47,13 @@ img {
 }
 }
 
-.login-container--Text{text-align: center;
+.container--Text{text-align: center;
 color: white;}
 
 h1{font-weight: 700;
 font-style: bold;}
 
-.login-container-azul{background-color: #007bff;
+.container-azul{background-color: #0044b4;
     width: 100%;
     margin-top:30px;
     display: flex;
@@ -59,7 +61,7 @@ font-style: bold;}
     align-items: center;
     flex-direction:row;
     
-    img {
+img {
         height: auto;
         max-width: 100%;
         width: 800px;
@@ -67,7 +69,7 @@ font-style: bold;}
     }
     }
     
-.login-container-rojo{background-color: #dc3545;
+.container-rojo{background-color: #d50032;
     margin-top:30px;
     display: flex;
     justify-content: space-between;
@@ -81,7 +83,7 @@ font-style: bold;}
         height: 350px;
     }
 }
-.login-container-verde{background-color: #1e3932;
+.container-verde{background-color: #1e3932;
 
 margin-top:30px;
 display: flex;
@@ -96,7 +98,7 @@ img {
     height: 350px;
 }
 }
-.login-container-cereza{background-color: #dc3545;
+.container-cereza{background-color: #d50032;
     margin-top:30px;
     display: flex;
     justify-content: space-between;
