@@ -1,3 +1,29 @@
+button{background-color:white;/*Color inicial del botón*/
+    color: black;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    display: block;
+}
+
+button:hover{
+    background-color:rgba(255, 255, 255, 0.851);/*Color del botón cuando el ratón pasa por encima*/
+color: gray;
+}
+a{
+   color: black;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+a:hover{
+    color: #1e3932;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -5,9 +31,11 @@ body{
     }
 
 .login-container{background-color: #1e3932;
-padding: 2%;
-margin-top:30px;
+width: 100%;
+margin: top 30px;
 display: flex;
+justify-content: space-between;
+align-items: center;
 flex-direction:row;
 img {
     height: auto;
@@ -20,13 +48,15 @@ img {
 .login-container--Text{text-align: center;
 color: white;}
 
-.h1{font-weight: 700;
+h1{font-weight: 700;
 font-style: bold;}
 
 .login-container-azul{background-color: #007bff;
-    padding: 2%;
+    width: 100%;
     margin-top:30px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction:row;
     
     img {
@@ -38,9 +68,10 @@ font-style: bold;}
     }
     
 .login-container-rojo{background-color: #dc3545;
-    padding: 2%;
     margin-top:30px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction:row;
     
     img {
@@ -51,9 +82,11 @@ font-style: bold;}
     }
 }
 .login-container-verde{background-color: #1e3932;
-padding: 2%;
+
 margin-top:30px;
 display: flex;
+justify-content: space-between;
+align-items: center;
 flex-direction:row;
 
 img {
@@ -64,9 +97,10 @@ img {
 }
 }
 .login-container-cereza{background-color: #dc3545;
-    padding: 2%;
     margin-top:30px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction:row;
     
     img {
